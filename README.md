@@ -1,4 +1,5 @@
 # Todo list
+code review
 
 
 In this project the goal build a simple HTML list of To Do tasks with html, javascript ES6 syntax, webpack bundler and scss.
