@@ -1,3 +1,4 @@
+// get all dom elemets 
 const todoList = document.querySelector('.todo-list');
 const clearBtn = document.querySelector('.clear-btn');
 
@@ -38,7 +39,7 @@ const showEditInputs = (liElement) => {
   liElement.appendChild(input);
   input.focus();
 };
-
+// function to edit task after it has been added to a tod list
 function editTask() {
   todoList.addEventListener('click', () => {
     const editEl = document.querySelectorAll('.edit-task');
