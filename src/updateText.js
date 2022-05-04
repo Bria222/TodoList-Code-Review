@@ -15,5 +15,7 @@ function updateText(textValue) {
   }
   editInput.remove();
 }
+
 // export update function as module
+
 export default updateText;

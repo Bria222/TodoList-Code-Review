@@ -13,5 +13,7 @@ class Task {
     localStorage.setItem('tasks', JSON.stringify(this.tasks));
   }
 }
+
 // export tasks module function to index js file
+
 export default Task;

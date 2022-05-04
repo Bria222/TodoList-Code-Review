@@ -1,4 +1,5 @@
 //  display task function  
+
 function displayTask() {
   const todoList = document.querySelector('.todo-list');
   const localData = JSON.parse(localStorage.getItem('tasks'));
@@ -18,4 +19,5 @@ function displayTask() {
   }
 }
 // export display task function as a module
+
 export default displayTask;
