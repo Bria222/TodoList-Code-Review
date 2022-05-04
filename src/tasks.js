@@ -14,6 +14,4 @@ class Task {
   }
 }
 
-// export tasks module function to index js file
-
 export default Task;

@@ -1,5 +1,3 @@
-// this module checks for completed tasks
-
 const runComplete = (inputId) => {
   const localData = JSON.parse(localStorage.getItem('tasks'));
   localData.forEach((task) => {

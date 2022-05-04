@@ -1,5 +1,3 @@
-// this module hanles the ui update events 
-
 import Task from './tasks.js';
 
 const newTask = new Task();
